@@ -1,0 +1,31 @@
+{
+  "name": "task5-secure-task-api",
+  "version": "1.0.0",
+  "description": "Secure Task Management REST API",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --exec tsx src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie-parser": "^1.4.9",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^24.3.0",
+    "nodemon": "^3.1.10",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
